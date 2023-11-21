@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Backgrounds */
+    --color-darkGreen: #021E10;
+    --color-lightGreen: #12FF46;
+
+    /* Fonts colors*/
+    --color-whiteFont: rgb(240, 240, 240);
+
+    /* Fonts sizes */
+    --font-small: 1.4rem;
+    --font-medium: 1.6rem;
+    --font-bigBig: 4rem;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: var(--color-darkGreen);
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-whiteFont);
+}
+
+/* ===================== OVERALL styles ===================== */
+a {
+    text-decoration: none;
+}
+
+.btn-green {
+    background-color: var(--color-lightGreen);
+}
+
+p {
+    font-size: var(--font-small);
+}
+
+h1 {
+    font-size: var(--font-bigBig);
+}
+
+/* ========================================================= */
+
+
+
+/* ===================== HEADER styles ===================== */
+header {
+    padding: 1rem 2rem;
+    font-size: var(--font-big);
+}
+
+.logo-txt {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--color-lightGreen);
+}
+
+/* ======================================================== */
+
+
+/* ===================== MAIN styles ====================== */
+main {
+    padding: 1rem 2rem;
+}
+
+main h1 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    line-height: 1.1;
+}
+
+/* ======================================================== */
