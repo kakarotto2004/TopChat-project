@@ -1,2 +1,5 @@
 # Ignore vizualization folder
 vizualization
+
+# Ignore all pdf files
+*.pdf
