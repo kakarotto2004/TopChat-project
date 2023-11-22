@@ -66,6 +66,7 @@ img {
 
 /* ===================== HEADER styles ===================== */
 header {
+    height: 5vh;
     padding: 1rem 2rem 0;
     font-size: var(--font-big);
 }
@@ -81,9 +82,9 @@ header {
 
 /* ===================== MAIN styles ====================== */
 main {
-    /* position: relative; */
+    position: relative;
 
-    /* min-height: 100vh; */
+    min-height: 95vh;
     padding: 1rem 2rem;
 }
 
@@ -107,14 +108,15 @@ main h1 {
 }
 
 .main-picture {
-    position: relative;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+
     text-align: center;
 }
 
 .main-picture img {
     position: relative;
-    /* bottom: 0;
-    left: 0; */
     width: 100%;
     padding: 4rem 4rem 0 4rem;
 
@@ -134,7 +136,7 @@ main h1 {
 
 .green-shadow {
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 50%;
     transform: translate(-70%, -60%);
 
@@ -142,7 +144,7 @@ main h1 {
     height: 50px;
     border-radius: 50%;
     background-color: var(--color-lightGreen);
-    box-shadow: 0 0 50px 30px var(--color-lightGreen);
+    box-shadow: 0 0 50px 35px var(--color-lightGreen);
     z-index: 0;
 }
 
