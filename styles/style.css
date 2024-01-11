@@ -57,6 +57,10 @@ h1 {
     font-size: var(--font-bigBig);
 }
 
+h2 {
+    font-size: var(--font-big);
+}
+
 img {
     display: block;
 }
@@ -160,6 +164,7 @@ main h1 {
 /* ==================section=============== */
 .main-introdution {
     height: 100vh;
+    padding: 1rem 2rem;
 }
 
 /* ======================================== */
