@@ -18,6 +18,7 @@
     /* Fonts sizes */
     --font-small: 1.4rem;
     --font-medium: 1.6rem;
+    --font-big: 2.2rem;
     --font-bigBig: 4rem;
 }
 
@@ -71,11 +72,16 @@ header {
     font-size: var(--font-big);
 }
 
-header img
-{
+/* header img {
     width: 20vh;
     height: 15vh;
     position: absolute;
+} */
+
+.logo-txt {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--color-lightGreen);
 }
 
 /* ======================================================== */
@@ -152,13 +158,17 @@ main h1 {
 /* ======================================================== */
 
 /* ==================section=============== */
+.main-introdution {
+    height: 100vh;
+}
+
 /* ======================================== */
 
 /* ======================================================== */
 
 
-/* ================logowanie/rejestracja=============== */
-main .area .area-text{
+/* ================ login/registration styles =============== */
+main .area .area-text {
     width: 60vw;
     height: 5vh;
     padding: 5%;
@@ -175,11 +185,13 @@ main .area .area-text{
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-main .area a{
+
+main .area a {
     text-decoration: none;
     color: white;
 }
-main .area button{
+
+main .area button {
     width: 30vw;
     height: 5vh;
     margin: 2%;
@@ -189,15 +201,13 @@ main .area button{
     font-weight: bold;
     background-color: #12FF46;
     outline: none;
-    border:none;
+    border: none;
     -webkit-box-shadow: 8px 8px 44px -13px rgba(98, 245, 12, 1);
     -moz-box-shadow: 8px 8px 44px -13px rgba(98, 245, 12, 1);
     box-shadow: 8px 8px 44px -13px rgba(98, 245, 12, 1);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 /* ======================================== */
 
 /* ======================================================== */
-
-
-
