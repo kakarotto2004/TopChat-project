@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto+Mono:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+*/
 
 * {
     margin: 0;
@@ -33,20 +39,16 @@ body {
     max-width: 100vh;
 }
 
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 /* ===================== GLOBAL styles ===================== */
 a {
     text-decoration: none;
-}
-
-.btn-green {
-    display: block;
-    padding: 15px 40px;
-    border-radius: 40px;
-    background-color: var(--color-lightGreen);
-    font-size: var(--font-medium);
-    font-weight: bold;
-    color: var(--color-darkGreen);
-    text-transform: uppercase;
+    color: var(--color-whiteFont);
 }
 
 p {
@@ -63,6 +65,30 @@ h2 {
 
 img {
     display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bold-txt {
+    font-weight: bold;
+}
+
+.uppsercase-txt {
+    text-transform: uppercase;
+}
+
+.btn-green {
+    display: block;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: var(--color-lightGreen);
+    font-size: var(--font-medium);
+    font-weight: bold;
+    color: var(--color-darkGreen);
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /* ========================================================= */
